@@ -61,7 +61,9 @@ img, video, audio {
   max-width: 100%;
 }
 /*/////LAYOUT////*/
-
+*{
+  box-sizing: border-box;
+}
 .wrapper{
   width: 960px;
   margin: 0 auto;
@@ -105,5 +107,5 @@ img, video, audio {
 section{
   margin-bottom: 20px;
   padding: 20px;
-  
+
 }
